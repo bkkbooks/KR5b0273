@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0273/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0273/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈寶歸空訣
+  date: '2015-08-29 00:15:34.781592'
+  source:
+    repository: kanripo
+    path: KR5b0273
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0273_000-ZTDZ.yaml, hash: 'sha256:22f771d0851c85131d7822d7aae4de0f4bd8a29b3edf644e63e2629107ddd309'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0273_000-ZTDZ.markers.yaml, hash: 'sha256:cf294915c719df7b20b348a71a7fbded5b94a82cd1d83dc4623f699162af4b56'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0273_SJB_000-100657b
+    span:
+    - body
+    - 0
+    - 2272
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b63a2a5040a1a65107555dd1fab23f3a5cb523a3966522b2fbca62955f76c639
